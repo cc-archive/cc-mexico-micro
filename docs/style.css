@@ -1,0 +1,51 @@
+a {
+    color: rgb(214, 88, 29);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.main-header {
+    padding: 1rem;
+}
+.main-header .country {
+    display: block;
+    padding: .2rem 0;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+.main-banner {
+    padding: 1rem;
+    background-color: rgb(255, 244, 244);
+}
+.team-photo {
+    position: relative;
+}
+.button {
+    display: block;
+    position: absolute;
+    bottom: 1rem;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: .5rem 3rem;
+    width: 15rem;
+    background-color: rgb(212, 67, 0);
+    color: white;
+    font-size: .9rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.button:hover {
+    background-color: rgb(214, 88, 29);
+}
+.main-footer {
+    padding: 1rem 0;
+}
+.text-center {
+    text-align: center;
+}
